@@ -1,0 +1,1 @@
+# core-loyalty-ios-sdk
