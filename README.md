@@ -1,1 +1,1 @@
-# core-loyalty-ios-sdk
+Core enterprise
