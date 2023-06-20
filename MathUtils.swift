@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  CoreLoyalty-iOS-SDK
+//  CoreEnterprise
 //
 //  Created by Osaed Yahya on 19/06/2023.
 //

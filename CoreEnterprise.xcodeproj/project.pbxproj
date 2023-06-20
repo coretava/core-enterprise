@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E6743A02A40409F00D8D513 /* CoreLoyalty_iOS_SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67439F2A40409F00D8D513 /* CoreLoyalty_iOS_SDK.swift */; };
+		6E6743A02A40409F00D8D513 /* CoreEnterprise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67439F2A40409F00D8D513 /* CoreEnterprise.swift */; };
 		6E6743AA2A40417800D8D513 /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6743A92A40417800D8D513 /* MathUtils.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,9 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6E67439C2A40409F00D8D513 /* libCoreLoyalty-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCoreLoyalty-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E67439F2A40409F00D8D513 /* CoreLoyalty_iOS_SDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLoyalty_iOS_SDK.swift; sourceTree = "<group>"; };
-		6E6743A82A40417800D8D513 /* CoreLoyalty-iOS-SDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CoreLoyalty-iOS-SDK.podspec"; sourceTree = "<group>"; };
+		6E67439C2A40409F00D8D513 /* libCoreEnterprise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoreEnterprise.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E67439F2A40409F00D8D513 /* CoreEnterprise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreEnterprise.swift; sourceTree = "<group>"; };
+		6E6743A82A40417800D8D513 /* CoreEnterprise.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CoreEnterprise.podspec; sourceTree = "<group>"; };
 		6E6743A92A40417800D8D513 /* MathUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,9 +44,9 @@
 		6E6743932A40409F00D8D513 = {
 			isa = PBXGroup;
 			children = (
-				6E6743A82A40417800D8D513 /* CoreLoyalty-iOS-SDK.podspec */,
+				6E6743A82A40417800D8D513 /* CoreEnterprise.podspec */,
 				6E6743A92A40417800D8D513 /* MathUtils.swift */,
-				6E67439E2A40409F00D8D513 /* CoreLoyalty-iOS-SDK */,
+				6E67439E2A40409F00D8D513 /* CoreEnterprise */,
 				6E67439D2A40409F00D8D513 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,25 +54,25 @@
 		6E67439D2A40409F00D8D513 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E67439C2A40409F00D8D513 /* libCoreLoyalty-iOS-SDK.a */,
+				6E67439C2A40409F00D8D513 /* libCoreEnterprise.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6E67439E2A40409F00D8D513 /* CoreLoyalty-iOS-SDK */ = {
+		6E67439E2A40409F00D8D513 /* CoreEnterprise */ = {
 			isa = PBXGroup;
 			children = (
-				6E67439F2A40409F00D8D513 /* CoreLoyalty_iOS_SDK.swift */,
+				6E67439F2A40409F00D8D513 /* CoreEnterprise.swift */,
 			);
-			path = "CoreLoyalty-iOS-SDK";
+			path = CoreEnterprise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E67439B2A40409F00D8D513 /* CoreLoyalty-iOS-SDK */ = {
+		6E67439B2A40409F00D8D513 /* CoreEnterprise */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E6743A32A40409F00D8D513 /* Build configuration list for PBXNativeTarget "CoreLoyalty-iOS-SDK" */;
+			buildConfigurationList = 6E6743A32A40409F00D8D513 /* Build configuration list for PBXNativeTarget "CoreEnterprise" */;
 			buildPhases = (
 				6E6743982A40409F00D8D513 /* Sources */,
 				6E6743992A40409F00D8D513 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "CoreLoyalty-iOS-SDK";
+			name = CoreEnterprise;
 			productName = "CoreLoyalty-iOS-SDK";
-			productReference = 6E67439C2A40409F00D8D513 /* libCoreLoyalty-iOS-SDK.a */;
+			productReference = 6E67439C2A40409F00D8D513 /* libCoreEnterprise.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6E6743972A40409F00D8D513 /* Build configuration list for PBXProject "CoreLoyalty-iOS-SDK" */;
+			buildConfigurationList = 6E6743972A40409F00D8D513 /* Build configuration list for PBXProject "CoreEnterprise" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E67439B2A40409F00D8D513 /* CoreLoyalty-iOS-SDK */,
+				6E67439B2A40409F00D8D513 /* CoreEnterprise */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E6743A02A40409F00D8D513 /* CoreLoyalty_iOS_SDK.swift in Sources */,
+				6E6743A02A40409F00D8D513 /* CoreEnterprise.swift in Sources */,
 				6E6743AA2A40417800D8D513 /* MathUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +276,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E6743972A40409F00D8D513 /* Build configuration list for PBXProject "CoreLoyalty-iOS-SDK" */ = {
+		6E6743972A40409F00D8D513 /* Build configuration list for PBXProject "CoreEnterprise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E6743A12A40409F00D8D513 /* Debug */,
@@ -285,7 +285,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E6743A32A40409F00D8D513 /* Build configuration list for PBXNativeTarget "CoreLoyalty-iOS-SDK" */ = {
+		6E6743A32A40409F00D8D513 /* Build configuration list for PBXNativeTarget "CoreEnterprise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E6743A42A40409F00D8D513 /* Debug */,
