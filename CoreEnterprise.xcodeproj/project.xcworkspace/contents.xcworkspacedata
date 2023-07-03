@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/osaedyahya/Desktop/flutter_module/core-loyalty-ios-sdk/CoreEnterprise.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
